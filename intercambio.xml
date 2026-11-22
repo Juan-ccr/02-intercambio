@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Actividad Fundamental 02 - Programacion Web
+  Alumno: Juan Carlos Cortez Rico
+  Matricula: 2067285
+  Carrera: Ingeniero Administrador de Sistemas
+  Facultad: FIME - UANL
+
+  Archivo XML con informacion de intercambio academico dentro de FIME.
+  Contiene: 1 etiqueta raiz + 7 etiquetas
+  Universidades: 1 nacional y 1 internacional
+-->
+<IntercambioFIME>
+  <Facultad>Facultad de Ingenieria Mecanica y Electrica (FIME) - UANL</Facultad>
+  <Carrera>Ingeniero Administrador de Sistemas</Carrera>
+  <UniversidadNacional>
+    <Nombre>Universidad Nacional Autonoma de Mexico (UNAM)</Nombre>
+    <Ubicacion>Ciudad de Mexico, Mexico</Ubicacion>
+  </UniversidadNacional>
+  <UniversidadInternacional>
+    <Nombre>Universidad de La Laguna</Nombre>
+    <Ubicacion>San Cristobal de La Laguna, Espana</Ubicacion>
+  </UniversidadInternacional>
+  <Duracion>Un semestre academico con reconocimiento de creditos</Duracion>
+</IntercambioFIME>
