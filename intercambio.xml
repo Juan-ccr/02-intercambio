@@ -4,22 +4,151 @@
   Alumno: Juan Carlos Cortez Rico
   Matricula: 2067285
   Carrera: Ingeniero Administrador de Sistemas
-  Facultad: FIME - UANL
+  Facultad: FIME - Universidad Autonoma de Nuevo Leon
 
   Archivo XML con informacion de intercambio academico dentro de FIME.
-  Contiene: 1 etiqueta raiz + 7 etiquetas
+  Estructura: 1 etiqueta raiz + 7 etiquetas
   Universidades: 1 nacional y 1 internacional
 -->
 <IntercambioFIME>
-  <Facultad>Facultad de Ingenieria Mecanica y Electrica (FIME) - UANL</Facultad>
-  <Carrera>Ingeniero Administrador de Sistemas</Carrera>
+
+  <Facultad>
+    Facultad de Ingenieria Mecanica y Electrica (FIME) de la Universidad Autonoma de Nuevo Leon (UANL).
+    La FIME ofrece a sus estudiantes de licenciatura el programa de Movilidad Academica con reconocimiento
+    de creditos, administrado en coordinacion con la Direccion de Intercambio Academico de la UANL y la
+    Coordinacion de Titulacion y Movilidad Academica de la facultad (CIDET, 3er piso).
+    Correo de contacto institucional: movilidad.fime@gmail.com.
+    El programa permite continuar estudios durante un semestre o hasta un ano academico en instituciones
+    nacionales o extranjeras con las que la UANL mantiene convenios vigentes.
+    Requisitos generales para postular desde FIME:
+    - Ser alumno regular con promedio minimo de 85.
+    - Haber cursado y aprobado al menos el 50 por ciento de los creditos del plan de estudios.
+    - Presentar carta de motivos, curriculum vitae, kárdex certificado y formatos de autorizacion de
+      unidades de aprendizaje (minimo 18 creditos por semestre en licenciatura).
+    - Contar con carta de apoyo de la direccion de la dependencia.
+    - En movilidad internacional, demostrar dominio del idioma requerido (por ejemplo TOEFL iBT minimo 80
+      para ingles, o el nivel equivalente segun el pais destino) y pasaporte vigente.
+    Este archivo documenta dos opciones de intercambio de interes para un estudiante de Ingeniero
+    Administrador de Sistemas: una universidad nacional y una universidad internacional.
+  </Facultad>
+
+  <Carrera>
+    Ingeniero Administrador de Sistemas (IAS) en FIME-UANL.
+    El programa forma profesionales capaces de planear, implementar, administrar y mejorar sistemas de
+    informacion, infraestructura tecnologica, redes, bases de datos, soporte a usuarios y operaciones
+    digitales dentro de organizaciones.
+    Durante un intercambio academico, el estudiante de IAS puede cursar unidades de aprendizaje relacionadas
+    con administracion de sistemas, ciberseguridad basica, plataformas empresariales, gestion de proyectos
+    de TI, bases de datos, redes y servicios en la nube, siempre que sean autorizadas por la Comision
+    Academica de FIME y equivalentes a los creditos del plan de estudios de origen.
+    Objetivo del intercambio para esta carrera: fortalecer competencias tecnicas y profesionales,
+    conocer otros entornos universitarios y corporativos, y obtener experiencia academica transferable
+    a practicas profesionales y al campo laboral de Tecnologias de la Informacion.
+  </Carrera>
+
   <UniversidadNacional>
-    <Nombre>Universidad Nacional Autonoma de Mexico (UNAM)</Nombre>
-    <Ubicacion>Ciudad de Mexico, Mexico</Ubicacion>
+    <Nombre>
+      Universidad Nacional Autonoma de Mexico (UNAM).
+      Institucion publica de educacion superior con sede principal en Ciudad Universitaria, Ciudad de Mexico.
+      Es una de las universidades mas importantes de Mexico y forma parte de la red de movilidad nacional
+      vinculada a programas de intercambio entre instituciones de educacion superior mexicanas
+      (incluyendo esquemas de la red ANUIES y convenios nacionales vigentes con la UANL).
+      Para un estudiante de Ingeniero Administrador de Sistemas de FIME, la UNAM representa una opcion
+      nacional de alto prestigio academico, con facultades e institutos en areas de ingenieria,
+      computacion, sistemas y tecnologias de la informacion.
+      Areas de interes para cursar durante el intercambio nacional:
+      - Administracion y gestion de sistemas de informacion.
+      - Redes de computadoras y servicios de infraestructura.
+      - Bases de datos y plataformas digitales.
+      - Seguridad informatica introductoria y buenas practicas de TI.
+      - Ingenieria de software y soporte a procesos organizacionales.
+      Beneficios esperados del intercambio en la UNAM:
+      - Ampliar la formacion tecnica con otra perspectiva academica nacional.
+      - Convivir con estudiantes de distintas regiones de Mexico.
+      - Cursar materias equivalentes con reconocimiento de creditos en FIME.
+      - Fortalecer el perfil profesional para practicas y empleo en empresas mexicanas.
+      Documentacion tipica solicitada en movilidad nacional UANL/FIME:
+      carta de postulacion, fotografia, carta compromiso, solicitud de carga academica autorizada,
+      CURP, trayectoria academica, carta de motivos dirigida a la universidad destino, curriculum vitae,
+      seguro medico nacional e identificacion oficial.
+    </Nombre>
+    <Ubicacion>
+      Ciudad Universitaria, Alcaldia Coyoacan, Ciudad de Mexico, Mexico.
+      Campus principal de la UNAM, con acceso a bibliotecas, laboratorios, servicios escolares y
+      actividades academicas de facultades e institutos de ingenieria y computacion.
+      Modalidad contemplada: movilidad academica nacional presencial durante un periodo semestral,
+      con posibilidad de extenderse segun convocatoria y autorizacion de ambas instituciones.
+      Ciudad y entorno: Ciudad de Mexico ofrece un entorno academico y profesional amplio para
+      estudiantes de sistemas, con acceso a empresas, eventos de tecnologia y una oferta cultural
+      diversa durante la estancia.
+      Zona horaria: UTC-6 (horario del centro de Mexico).
+      Idioma de instruccion: espanol.
+    </Ubicacion>
   </UniversidadNacional>
+
   <UniversidadInternacional>
-    <Nombre>Universidad de La Laguna</Nombre>
-    <Ubicacion>San Cristobal de La Laguna, Espana</Ubicacion>
+    <Nombre>
+      Universidad de La Laguna (ULL).
+      Universidad publica ubicada en las Islas Canarias, Espana. La UANL mantiene convenio de colaboracion
+      con esta institucion, incluyendo anexos especificos relacionados con la Facultad de Ingenieria
+      Mecanica y Electrica (FIME), lo que la convierte en una opcion internacional relevante para
+      estudiantes de ingenieria de la facultad.
+      Para Ingeniero Administrador de Sistemas, la Universidad de La Laguna permite conocer un entorno
+      universitario europeo, practicar o reforzar competencias interculturales y cursar asignaturas
+      afines a sistemas, informatica, gestion tecnologica e ingenieria, siempre sujetas a autorizacion
+      academica y equivalencia de creditos.
+      Areas de interes para el intercambio internacional:
+      - Administracion de sistemas y servicios informaticos.
+      - Tecnologias de la informacion aplicadas a organizaciones.
+      - Redes, plataformas digitales y soporte tecnico.
+      - Proyectos academicos con enfoque internacional.
+      - Desarrollo de competencias profesionales en un contexto europeo.
+      Beneficios esperados:
+      - Experiencia internacional con reconocimiento de creditos en FIME-UANL.
+      - Contacto con metodologias de ensenanza distintas a las de Mexico.
+      - Mejora del perfil profesional para practicas y empleabilidad.
+      - Cumplimiento de movilidad academica internacional contemplada por la facultad.
+      Requisitos adicionales tipicos para movilidad internacional desde FIME:
+      constancia de idioma segun el pais destino, pasaporte con vigencia suficiente,
+      formatos de solicitud UANL, carta de motivos dirigida a la universidad receptora,
+      carta compromiso, curriculum vitae, kárdex, contenidos analiticos de las materias a cursar
+      y autorizacion de unidades de aprendizaje por la Comision Academica.
+    </Nombre>
+    <Ubicacion>
+      San Cristobal de La Laguna, Tenerife, Islas Canarias, Espana.
+      Ciudad universitaria historica con campus y servicios academicos de la Universidad de La Laguna.
+      Modalidad contemplada: estancia academica internacional de un semestre, con posibilidad de
+      extenderse hasta un ano segun el convenio, la convocatoria vigente y la aceptacion de la
+      institucion receptora.
+      Entorno: Islas Canarias, Espana; contexto europeo de educacion superior, con espanol como
+      idioma principal de comunicacion academica y convivencia.
+      Zona horaria: UTC+0 / UTC+1 segun horario de Espana (peninsular/canario aplicable a Canarias).
+      Consideraciones practicas para el estudiante FIME:
+      - Gestionar visa o documentacion migratoria si aplica.
+      - Contar con seguro medico internacional y recursos de manutencion.
+      - Coordinar la carga academica antes de viajar para asegurar el reconocimiento de creditos.
+      - Mantener comunicacion con Movilidad Academica FIME durante toda la estancia.
+    </Ubicacion>
   </UniversidadInternacional>
-  <Duracion>Un semestre academico con reconocimiento de creditos</Duracion>
+
+  <Duracion>
+    La duracion tipica del intercambio academico desde FIME es de un semestre, con posibilidad de
+    extenderse hasta un ano academico de acuerdo con los convenios, la convocatoria vigente y la
+    autorizacion de la UANL y de la universidad destino.
+    Para la opcion nacional (UNAM): se contempla un semestre de movilidad academica nacional con
+    reconocimiento de creditos, alineado al calendario escolar de ambas instituciones y a la carga
+    minima autorizada (al menos 18 creditos en un periodo semestral de licenciatura, salvo casos
+    especificos del programa).
+    Para la opcion internacional (Universidad de La Laguna): se contempla igualmente un semestre
+    academico como periodo base, sujeto a plazas, requisitos de idioma, aceptacion de la universidad
+    receptora y validacion de las unidades de aprendizaje por la Comision Academica de FIME.
+    En ambos casos, el estudiante debe completar el proceso de postulacion dentro de las fechas de
+    la convocatoria correspondiente, entregar la documentacion requerida en formato digital cuando
+    asi se indique, y cumplir los tramites posteriores a la aceptacion (por ejemplo, autorizacion
+    definitiva de materias, kárdex actualizado y documentos de salud o migratorios segun el destino).
+    Periodo de referencia documentado en este archivo: movilidad academica de un semestre para
+    Ingeniero Administrador de Sistemas, con dos destinos prioritarios (UNAM a nivel nacional y
+    Universidad de La Laguna a nivel internacional).
+  </Duracion>
+
 </IntercambioFIME>
