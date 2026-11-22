@@ -5,10 +5,6 @@
   Matricula: 2067285
   Carrera: Ingeniero Administrador de Sistemas
   Facultad: FIME - Universidad Autonoma de Nuevo Leon
-
-  Archivo XML con informacion de intercambio academico dentro de FIME.
-  Estructura: 1 etiqueta raiz + 7 etiquetas
-  Universidades: 1 nacional y 1 internacional
 -->
 <IntercambioFIME>
 
